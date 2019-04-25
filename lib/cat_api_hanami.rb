@@ -1,0 +1,2 @@
+module CatApiHanami
+end
