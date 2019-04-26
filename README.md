@@ -8,3 +8,11 @@ base api server on Hanami :cat:
   $ docker-compose run cat bundle exec hanami db prepare
   $ docker-compose up -d
 ```
+
+## endopoints
+  * GET `/cats`
+  * POST `/cats`
+    * body `name`
+  * PUT `/cats/:id` 
+    * body `name`
+  * DELETE `cats/:id`
