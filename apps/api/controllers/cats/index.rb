@@ -5,7 +5,7 @@ module Api::Controllers::Cats
     include Api::Action
     accept :json
 
-    expose :cat
+    expose :cats
     before :configure_response
 
     def call(_params)

@@ -4,12 +4,7 @@ module Api::Views::Cats
     layout false
 
     def render
-      json = {
-        id: cat.id,
-        name: cat.name
-      }.to_json
-
-      _raw json
+      _raw cat.to_h.to_json
     end
   end
 end

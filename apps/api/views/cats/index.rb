@@ -4,8 +4,7 @@ module Api::Views::Cats
     layout false
 
     def render
-      # _raw JSON.dump(cats.map(&:to_h))
-      cats.to_json
+      _raw cats.map(&:to_h).to_json
     end
   end
 end
