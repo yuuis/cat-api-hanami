@@ -3,4 +3,5 @@
 get '/cats', to: 'cats#index'
 get '/cats/:id', to: 'cats#show'
 post '/cats', to: 'cats#create'
-patch 'cats/:id', to: 'cats#update'
+put 'cats/:id', to: 'cats#update'
+delete 'cats/:id', to: 'cats#delete'
