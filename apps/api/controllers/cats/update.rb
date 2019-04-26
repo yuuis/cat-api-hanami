@@ -16,7 +16,7 @@ module Api::Controllers::Cats
     def call(params)
       halt 400 unless params.valid?
 
-      @cat = CatRepository.new.update(id: params.get(:id), name: params.get(:name))
+      @cat = CatRepository.new.update(params.get(:id), name: params.get(:name))
     end
 
     private
@@ -26,4 +26,3 @@ module Api::Controllers::Cats
     end
   end
 end
-

@@ -4,7 +4,7 @@ module Api::Views::Cats
     layout false
 
     def render
-      _raw cat.curry_args.to_h.to_json
+      _raw cat.to_h.to_json
     end
   end
 end
