@@ -1,6 +1,6 @@
 # Cat Api Hanami
 
-base api server on Hanami :cat:
+base api server on Hanami :cat: :cherry_brossom:
 
 ## how to build
 ```sh
