@@ -8,4 +8,3 @@ module Api::Views::Cats
     end
   end
 end
-
