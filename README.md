@@ -1,6 +1,6 @@
 # Cat Api Hanami
 
-base api server on Hanami :tada:
+base api server on Hanami :cat:
 
 ## how to build
 ```sh
