@@ -1,6 +1,6 @@
 # Cat Api Hanami
 
-base api server on Hanami :cat: :cherry_blossom:
+base api server on Hanami :cat::cherry_blossom::cat::cherry_blossom:
 
 ## how to build
 ```sh
@@ -16,3 +16,6 @@ base api server on Hanami :cat: :cherry_blossom:
   * PUT `/cats/:id` 
     * body `name`
   * DELETE `cats/:id`
+
+## more
+ [hanami guides](https://guides.hanamirb.org/)
