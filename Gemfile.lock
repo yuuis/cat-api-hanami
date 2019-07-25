@@ -228,7 +228,7 @@ GEM
       rack
     xpath (3.2.0)
       nokogiri (~> 1.8)
-    yard (0.9.19)
+    yard (0.9.20)
 
 PLATFORMS
   ruby
